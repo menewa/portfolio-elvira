@@ -1,3 +1,73 @@
+
+
+/* ulrich */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "SF Pro Rounded";
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+nav h2 {
+  font-size: 1.8rem;
+  color: #222;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: #3498db;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #3498db;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
 .competences {
   max-width: 600px;
   margin: 40px auto;
