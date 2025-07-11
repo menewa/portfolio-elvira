@@ -117,3 +117,18 @@ nav ul li a:hover::after {
 .bar-fill.css { width: 80%; }
 .bar-fill.js { width: 70%; }
 .bar-fill.python { width: 80%; }
+.bar-fill.python { width: 50%; }
+#contact {
+  color: white;
+  padding: 30px;
+  margin-top: 40px;
+  text-align: left;
+}
+#contact h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+#contact p {
+  margin: 8px 0;
+  font-size: 18px;
+}
