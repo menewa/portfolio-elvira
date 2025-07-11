@@ -132,3 +132,45 @@ nav ul li a:hover::after {
   margin: 8px 0;
   font-size: 18px;
 }
+/*elvira*/
+#apropos{
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+#apropos h2{
+  font-size: 24px; 
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contenu{
+  margin-bottom: 20px;
+}
+.contenu p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.equipe{
+  margin-bottom: 20px;
+}
+.equipe h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.equipe ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.equipe li {
+  margin-bottom: 10px;
+}
+.equipe img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.equipe p{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
